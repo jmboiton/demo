@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply text-black;
+  }
+}
+
+[class*="animated"] {
+  @apply transition ease-in-out duration-700;
+}
+
+/* animated-bg */
+.page-appear .animated-bg {
+  @apply translate-x-full opacity-0;
+}
+
+.page-enter .animated-bg {
+  @apply translate-x-full opacity-0;
+}
+
+.page-exit .animated-bg {
+  @apply opacity-100;
+}
+
+.page-exit-active .animated-bg {
+  @apply -translate-x-full opacity-0;
+}
+
+/* animated-fade-in */
+.page-appear .animated-fade-in {
+  @apply opacity-0;
+}
+
+.page-enter .animated-fade-in {
+  @apply opacity-0;
+}
+
+.page-exit .animated-fade-in {
+  @apply opacity-100;
+}
+
+.page-exit-active .animated-fade-in {
+  @apply opacity-0;
+}
+
+/* animated-slide-down */
+.page-appear .animated-slide-down {
+  @apply -translate-y-1/2 opacity-0;
+}
+
+.page-enter .animated-slide-down {
+  @apply -translate-y-1/2 opacity-0;
+}
+
+.page-exit .animated-slide-down {
+  @apply opacity-100;
+}
+
+.page-exit-active .animated-slide-down {
+  @apply -translate-y-1/2 opacity-0;
+}
+
+/* animated-slide-up */
+.page-appear .animated-slide-up {
+  @apply translate-y-full opacity-0;
+}
+
+.page-enter .animated-slide-up {
+  @apply translate-y-full opacity-0;
+}
+
+.page-exit .animated-slide-up {
+  @apply opacity-100;
+}
+
+.page-exit-active .animated-slide-up {
+  @apply translate-y-full opacity-0;
+}
+
+/* animated-card */
+@media screen(xl) {
+  .page-appear .animated-card {
+    @apply transform-none;
+  }
+  
+  .page-enter .animated-card {
+    @apply transform-none;
+  }
+}
