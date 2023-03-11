@@ -17,3 +17,5 @@ The project has the following scripts:
 | `$ npm run preview` | Launches a local server to serve the contents of the `/dist` folder (i.e. the result of `npm run build`). |
 
 The project comes equiped with other scripts for linting and testing, but there are not tests jet.
+
+## Task2: Javascript
