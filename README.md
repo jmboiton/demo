@@ -19,3 +19,6 @@ The project has the following scripts:
 The project comes equiped with other scripts for linting and testing, but there are not tests jet.
 
 ## Task2: Javascript
+
+- Look for the folder [/task2](task2).
+- Copy and paste the contests of the [/task2/index.js](task2/index.js) file into the browser console.
