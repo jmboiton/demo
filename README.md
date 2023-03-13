@@ -5,7 +5,7 @@
 - Clone the repo: `$ git clone git@github.com:jmboiton/demo.git`
 - Install dependencies: `$ npm install`
 
-## Task1: Markup and ReactJS
+## Task 1: Markup and ReactJS
 
 The project has the following scripts:
 
@@ -18,7 +18,9 @@ The project has the following scripts:
 
 The project comes equiped with other scripts for linting and testing, but there are not tests jet.
 
-## Task2: Javascript
+## Task 2: Javascript
 
 - Look for the folder [/task2](task2).
 - Copy and paste the contests of the [/task2/index.js](task2/index.js) file into the browser console.
+
+## Task 3: Javascript Logic
