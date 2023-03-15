@@ -5,6 +5,7 @@ import Layout from "routes/Layout";
 import NotFound from "routes/NotFound";
 import BrewQuestion from "routes/BrewQuestion";
 import Results from "routes/Results";
+import QuestionsToCSV from "routes/QuestionsToCSV";
 
 type RouteType = RouteObject & {
   nodeRef: RefObject<HTMLDivElement>;
@@ -24,6 +25,11 @@ export const routes: RouteType[] = [
   {
     path: "/results",
     element: <Results />,
+    nodeRef: createRef(),
+  },
+  {
+    path: "/questions-to-csv",
+    element: <QuestionsToCSV />,
     nodeRef: createRef(),
   },
   {
