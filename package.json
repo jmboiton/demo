@@ -2,6 +2,10 @@
   "name": "demo",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=16.19.0",
+    "npm": ">=8.19.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

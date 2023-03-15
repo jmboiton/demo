@@ -7,7 +7,9 @@ function Layout() {
   const location = useLocation();
   const currentOutlet = useOutlet();
   const { nodeRef } =
-    routes.find((route) => route.path === location.pathname) ?? {};
+    routes.find((route) => {
+      return route.path === location.pathname || route.path === "/*";
+    }) ?? {};
 
   return (
     <div className="flex min-h-screen w-screen flex-col overflow-hidden bg-beige-100">
